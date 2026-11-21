@@ -1,0 +1,27 @@
+# Ignore everything at the repo root unless explicitly allowed.
+/*
+
+# Repository metadata and documentation.
+!/.gitignore
+!/README.md
+!/AGENTS.md
+
+# Customizations.
+!/skills/
+!/prompts/
+!/extensions/
+!/themes/
+
+# Optional portable settings example; keep live settings local.
+!/settings.example.json
+
+# Exclude secrets and generated files even inside allowed directories.
+.env
+.env.*
+!.env.example
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
